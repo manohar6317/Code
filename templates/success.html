@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>Blockchain-Certificate-Verifier Registration Form </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='certificate.css')}}">
+    <style>
+           .bgimg {
+  background-image: url('https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+table{
+  width:50%;
+  background-color:#B7DDE6;
+  opacity: 0.8;
+  color: black;
+  border: none;
+  border-radius: 5%;
+  margin-top: 50px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+    </style>
+  </head>
+
+<body class="bgimg">
+  <h3 style="color:green;margin: auto;background-color: #B7DDE6;;width: 30%;opacity: 0.8;"><u>CERTIFICATE IS AUTHENTIC</u></h3>
+
+ 
+  <table align="center" cellpadding = "10">
+  
+  <tr>
+    <td> DEPARTMENT </td>
+    <td>
+      <b> {{department}} </b>
+    </td>
+  </tr>
+
+  <tr>
+    <td> NAME </td>
+    <td>
+      <b> {{studentname}} </b>
+    </td>
+  </tr>
+   
+  <tr>
+    <td> BATCH </td>
+    <td>
+      <b> {{academicyear}} </b>
+    </td>
+  </tr>
+  
+  <tr>
+    <td> REG NO </td>
+    <td>
+      <b> {{regnum}} </b>
+    </td>
+  </tr>
+
+  <tr>
+    <td> JOINING DATE </td>
+    <td>
+      <b> {{joiningdate}} </b>
+    </td>
+  </tr>
+  
+  <tr>
+    <td> END DATE </td>
+    <td>
+      <b> {{enddate}} </b>
+    </td>
+  </tr>
+
+  <tr>
+    <td> MARK </td>
+    <td>
+      <b> {{mark}} </b>
+    </td>
+  </tr>
+
+  <tr>
+    <td> CERTIFICATE  </td>
+    <td><button><a href="{{ url_for('files', keyId=keyId) }}">Click here to upload your certificate</a></button></td>
+   
+
+  </tr>
+  
+  <tr>
+    <td> PERSONALITY </td>
+    <td>
+      <b> {{personality}} </b>
+    </td>
+  </tr>
+ </table>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>

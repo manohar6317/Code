@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" >
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>Blockchain-Certificate-Verifier Registration Form </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='certificate.css')}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+      .bgimg{
+        background-image: url('https://images.pexels.com/photos/9829490/pexels-photo-9829490.jpeg');
+      }
+
+      table{
+        background-color: #eff1f2;
+        color: black;
+        opacity: 0.9;
+      }
+    </style>
+  </head>
+
+<body class="bgimg">
+  <h3 style="color:white;">CERTIFICATE REGISTRATION FORM</h3>
+  {% for message in get_flashed_messages() %}
+      <div class="alert alert-danger">
+        <button type="button" class="close" data-dismiss="alert">&nbsp; &nbsp; &times;</button>
+        {{ message }}
+      </div>
+  {% endfor %}
+  <table align="center" cellpadding = "10">
+    <form method="POST" action="http://127.0.0.1:5000/addcertificate" enctype = "multipart/form-data">
+  <tr>
+    <td> DEPARTMENT </td>
+    <td>
+      <input type="text" name="department" maxlength="30"/>
+      (max 30 characters a-z and A-Z)
+    </td>
+  </tr>
+
+  <tr>
+    <td> NAME </td>
+    <td>
+      <input type="text" name="studentname" maxlength="30"/>
+      (max 30 characters a-z and A-Z)
+    </td>
+  </tr>
+   
+  <tr>
+    <td> Academic year </td>
+    <td>
+      <input type="text" name="academicyear" maxlength="30"/>
+      (max 30 numbers and characters)
+    </td>
+  </tr>
+  
+  <tr>
+    <td> Reg No </td>
+    <td>
+      <input type="text" name="regnum" maxlength="30"/>
+      (max 30 numbers and characters)
+    </td>
+  </tr>
+
+  <tr>
+    <td> JOIN DATE </td>
+    <td>
+      <input type="date" name="joiningdate" />
+    </td>
+  </tr>
+
+  <tr >
+    <td> END DATE </td>
+    <td>
+      <input type="date" name="enddate" value="" />
+    </td>
+  </tr>
+  
+  <tr>
+    <td> MARKS </td>
+    <td>
+      <input type="text" name="mark" maxlength="10" />
+      (Must be from 0 to 100)
+    </td>
+  </tr>
+
+  <tr>
+    <td> Upload Certificate </td>
+    <td>
+      <input type = "file" name = "certfile" class="form-control" autocomplete="off" required />
+    </td>
+  </tr>
+  
+  <tr>
+    <td> Personolity </td>
+    <td>
+      <input type="text" name="personality" maxlength="30"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <input type="submit" name="submit">
+    </td>
+  </tr>
+ 
+
+ 
+  </form>
+ </table>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
