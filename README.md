@@ -14,23 +14,23 @@ This repository contains a decentralized application (DApp) designed to issue an
 
 ### 1. Main Dashboard
 
-![Main Dashboard](images/main_dashboard.png)
+![Main Dashboard](images/home.png)
 
 ### 2. Issuer Login Page
 
-![Issuer Login](images/issuer_login.png)
+![Issuer Login](images/login.png)
 
-### 3. Certificate Issuance Form
+### 3. Verification
 
-![Certificate Issuance Form](images/issue_form.png)
+![Certificate Issuance Form](images/verify.png)
 
-### 4. Certificate Issued Confirmation
+### 4. Add Certificate
 
-![Certificate Issued Confirmation](images/issue_confirm.png)
+![Certificate Issued Confirmation](images/addcertificate.png)
 
-### 5. Certificate Verification Input
+### 5. Registration  
 
-![Certificate Verification Input](images/verify_input.png)
+![Certificate Verification Input](images/registration.png)
 
 ### 6. Certificate Verification Results (Valid)
 
@@ -216,13 +216,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 * **Testing**: Add comprehensive tests, for both smart contracts and frontend.
 
 This improved README is significantly more detailed, provides clear instructions, and includes crucial information about project structure, dependencies, and security. It should give users a much better starting point for working with your DApp. Remember to fill in the missing pieces (like the actual frontend and backend code) and adapt it to your specific implementation.
-
-
-
-
-
-
-![Screenshot of the main interface](images/one.png)
-
-
-
