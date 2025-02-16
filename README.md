@@ -10,6 +10,40 @@ This repository contains a decentralized application (DApp) designed to issue an
 *   **Revocation (Optional):** Issuers can optionally revoke certificates, marking them as invalid.
 * **Issuer Management:** The contract owner can add/remove issuing authorities.
 
+## Here are some Screenshots
+
+### 1. Main Dashboard
+
+![Main Dashboard](images/main_dashboard.png)
+
+### 2. Issuer Login Page
+
+![Issuer Login](images/issuer_login.png)
+
+### 3. Certificate Issuance Form
+
+![Certificate Issuance Form](images/issue_form.png)
+
+### 4. Certificate Issued Confirmation
+
+![Certificate Issued Confirmation](images/issue_confirm.png)
+
+### 5. Certificate Verification Input
+
+![Certificate Verification Input](images/verify_input.png)
+
+### 6. Certificate Verification Results (Valid)
+
+![Valid Certificate Verification](images/verify_valid.png)
+
+### 7. Certificate Verification Results (Invalid/Revoked)
+
+![Invalid Certificate Verification](images/verify_invalid.png)
+
+### 8. Adding an Issuer (Admin Panel)
+
+![Add Issuer](images/add_issuer.png)
+
 ## Prerequisites
 
 Before setting up the project, ensure you have the following installed:
@@ -182,3 +216,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 * **Testing**: Add comprehensive tests, for both smart contracts and frontend.
 
 This improved README is significantly more detailed, provides clear instructions, and includes crucial information about project structure, dependencies, and security. It should give users a much better starting point for working with your DApp. Remember to fill in the missing pieces (like the actual frontend and backend code) and adapt it to your specific implementation.
+
+
+
+
+
+
+![Screenshot of the main interface](images/one.png)
+
+
+
