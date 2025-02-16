@@ -188,15 +188,6 @@ Before setting up the project, ensure you have the following installed:
 * **Adding/Removing Issuers:** The contract owner (initially the deploying address) can add or remove authorized issuers through the contract's functions (using Truffle Console or a custom interface).
 * **Revoking Certificates** An authorized issuer can revoke an issued certificate.
 
-## Project Structure (Important!)
-
-**`requirements.txt` (Create this file!)**
-
-You'll need a `requirements.txt` file in the root of your project to specify your Python dependencies.
-
-
-*Install these with `pip install -r requirements.txt`*
-
 ## Contributing
 
 Contributions are welcome!  Please fork this repository and submit pull requests for any enhancements or bug fixes.  Follow good coding practices and include tests for your changes.
