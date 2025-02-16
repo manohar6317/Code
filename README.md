@@ -1,6 +1,6 @@
 # Ethereum Smart Contract Certificate Verification
 
-This repository contains a decentralized application (DApp) designed to issue and verify certificates using Ethereum smart contracts. By leveraging blockchain technology, the system ensures the authenticity and integrity of certificates, making them tamper-proof and easily verifiable.
+This repository contains a decentralized application designed to issue and verify certificates using Ethereum smart contracts. By leveraging blockchain technology, the system ensures the authenticity and integrity of certificates, making them tamper-proof and easily verifiable.
 
 ## Features
 
@@ -206,4 +206,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 *   **Backend Logic:**  The `main.py` file will contain your backend logic (likely using Flask) to interact with the smart contract, handle user requests, and potentially manage authentication.
 * **Testing**: Add comprehensive tests, for both smart contracts and frontend.
 
-This improved README is significantly more detailed, provides clear instructions, and includes crucial information about project structure, dependencies, and security. It should give users a much better starting point for working with your DApp. Remember to fill in the missing pieces (like the actual frontend and backend code) and adapt it to your specific implementation.
+This improved README is significantly more detailed, provides clear instructions, and includes crucial information about project structure, dependencies, and security. Remember to fill in the missing pieces (like the actual frontend and backend code) and adapt it to your specific implementation.
