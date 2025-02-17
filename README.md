@@ -32,17 +32,30 @@ This repository contains a decentralized application designed to issue and verif
 
 ![Certificate Verification Input](images/registration.png)
 
-### 6. Certificate Verification Results (Valid)
+### 6. CMD
 
-![Valid Certificate Verification](images/verify_valid.png)
+![Command Prompt  ](images/cmd.png)
+
+### 7. QR Code Generation
+
+![QR Code Generation](images/qrcode.png)
+
+### 8. QR Code Verifying
+
+![Authenticating](images/authenticating.png)
+
+### 9. Digital Signature
+
+![Digital Signature](images/digitalsignature.png)
+
+### 10. Certificate Verification Results (Valid)
+
+![valid Certificate Verification](images/finalresult.png)
 
 ### 7. Certificate Verification Results (Invalid/Revoked)
 
 ![Invalid Certificate Verification](images/verify_invalid.png)
 
-### 8. Adding an Issuer (Admin Panel)
-
-![Add Issuer](images/add_issuer.png)
 
 ## Prerequisites
 
