@@ -73,7 +73,7 @@ Before setting up the project, ensure you have the following installed:
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [https://github.com/manohar6317/Ethereum-Smart-Contract-Certificate-Verification.git](https://github.com/manohar6317/Ethereum-Smart-Contract-Certificate-Verification.git)
+    git clone https://github.com/manohar6317/Ethereum-Smart-Contract-Certificate-Verification.git
     cd Ethereum-Smart-Contract-Certificate-Verification
     ```
 
