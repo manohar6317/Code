@@ -52,9 +52,9 @@ This repository contains a decentralized application designed to issue and verif
 
 ![valid Certificate Verification](images/finalresult.png)
 
-### 7. Certificate Verification Results (Invalid/Revoked)
+### 11. Certificate Verification Results (Invalid/Revoked)
 
-![Invalid Certificate Verification](images/verify_invalid.png)
+![Invalid Certificate Verification](images/invalid.png)
 
 
 ## Prerequisites
