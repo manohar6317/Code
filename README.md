@@ -207,7 +207,7 @@ Contributions are welcome!  Please fork this repository and submit pull requests
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Notes and Important Considerations
 
@@ -219,4 +219,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 *   **Backend Logic:**  The `main.py` file will contain your backend logic (likely using Flask) to interact with the smart contract, handle user requests, and potentially manage authentication.
 * **Testing**: Add comprehensive tests, for both smart contracts and frontend.
 
-This improved README is significantly more detailed, provides clear instructions, and includes crucial information about project structure, dependencies, and security. Remember to fill in the missing pieces (like the actual frontend and backend code) and adapt it to your specific implementation.
+This Updated and improved README is significantly more detailed, provides clear instructions, and includes crucial information about dependencies, and security. Remember to fill in the missing pieces (like the actual frontend and backend code) and adapt it to your specific implementation.
